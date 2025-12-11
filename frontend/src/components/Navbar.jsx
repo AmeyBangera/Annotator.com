@@ -23,7 +23,7 @@ function Navbar() {
                 <Link to="/signup" className="text-blue-600 hover:text-blue-800 font-semibold">
                   Sign Up
                 </Link>
-                <Link to="/signup" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                <Link to="/login" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
                   Log In
                 </Link>
               </>

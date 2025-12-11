@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import SignUp from './pages/SignUp'
 import Dashboard from './pages/Dashboard'
 import PostJob from './pages/PostJob'
+import LogIn from './pages/LogIn'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/post-job" element={<PostJob />} />
+          <Route path="/login" element={<LogIn />} />
         </Routes>
       </div>
     </Router>
